@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'com.github.eskorpado'
+version '1.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    compile group:'com.github.eskorpado', name:'liposapr-versioned-vector', version:'2.0'
+}
